@@ -1,0 +1,149 @@
+@import 'icon.css';
+@import 'colours.css';
+@import 'hover.css';
+
+* {
+    margin: 0;
+}
+
+
+.container {
+    height: 100vh;
+    background-color: black;
+
+}
+
+.grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.home-box {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+.bio-box {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.skills-box {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-box {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.logo-box {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 200px;
+    font-weight: 100px;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    filter: blur(0.1px);
+}
+
+p {
+        -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+}
+    
+    @-webkit-keyframes color-change {
+        0% { color: black; }
+        50% { color:black; }
+        100% { color:lightskyblue; }
+    }
+    @-moz-keyframes color-change {
+        0% { color: black; }
+        50% { color: black; }
+        100% { color: lightskyblue; }
+    }
+    @-ms-keyframes color-change {
+        0% { color: black; }
+        50% { color: black; }
+        100% { color: lightskyblue; }
+    }
+    @-o-keyframes color-change {
+        0% { color: black; }
+        50% { color: black; }
+        100% { color: lightskyblue; }
+    }
+    @keyframes color-change {
+        0% { color: black; }
+        50% { color: black; }
+        100% { color: lightskyblue; }
+    }
+
+
+.top-right-text-box {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+    background: black;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.text-box{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottom-right-icon-box {
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+    margin: 20px;
+    background: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+
+
+
+

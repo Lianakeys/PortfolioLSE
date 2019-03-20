@@ -1,0 +1,164 @@
+@import 'icon.css';
+@import 'colours.css';
+
+
+* {
+    margin : 0;
+}
+
+.container {
+    height: 100vh;
+    background: green;
+}
+
+.grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background: blue;
+    grid-template-columns: 0.65fr 0.35fr;
+    grid-template-rows: 1fr;
+}
+
+.content-box {
+    height: 100%;
+    grid-column: 1 / 2;
+    background-image: url(./blue-white-gradient-wallpaper-3.jpg.png)
+  
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    height: 100%;
+}
+
+
+.bio-word-flex-box{
+    grid-column: 1 / 2;
+    width: 5vw;
+    height: 60vh;
+    margin: 30px;
+    padding: 20px;
+    font-size: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-words-flex-box {
+    padding: 5% 5%;
+    grid-column: 2 / 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.what-i-am-doing {
+    width: 38%;
+    height: 100%;
+    padding: 5% 5%; 
+    font-size: 50px;
+    position: fixed;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.fixed-menu-box {
+    grid-column: 2 / 3;
+    background-image: url(./1.jpg);
+   
+}
+
+.grid-2 {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.2fr 0.6fr 0.2fr;
+
+}
+
+.menu-box {
+    grid-row: 1 / 2;
+  
+}
+
+.menu-flex-box {
+    margin: 15px 10px;
+     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 40px;
+    color: silver;
+     
+}
+
+
+.logo-box {
+   
+    grid-row: 2 / 3;
+ 
+}
+
+.logo-flex-box {
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: silver;
+}
+
+.page-number-icon {
+    grid-row: 3 / 4;
+ 
+}
+
+.page-number-flex-box {
+    height: 80%;
+    margin: 15px 10px;
+     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+     
+}
+
+.dropbutton {
+    color: silver;
+    background: black;
+    border-radius: 50%;
+    padding: 16px 16px; 
+     font-size: 40px; 
+
+    
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1; 
+     min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbutton {background-color: lightblue;}

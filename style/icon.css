@@ -1,0 +1,81 @@
+@import 'colours.css';
+@import 'hover.css';
+
+
+.home-icon {
+    height: 14vh;
+    width: 9vw;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+}
+
+.bio-icon {
+    height: 14vh;
+    width: 9vw;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+}
+
+.skills-icon {
+    height: 14vh;
+    width: 9vw;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+}
+
+
+.contact-icon {
+    height: 14vh;
+    width: 9vw;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+}
+
+.bottom-icon {
+    height: 8vh;
+    width: 5vw;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#ihome {
+    color: var(--lightpurple);
+   
+}
+
+#ibio {
+    color: var(--lightpurple)
+}
+
+#ichess {
+    color: var(--lightpurple)
+}
+
+#icontact {
+    color: var(--lightpurple)
+}
+
+  
+
+
+ 

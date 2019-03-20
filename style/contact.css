@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    background: green;
+}
+
+.grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background: blue;
+    grid-template-columns: 0.85fr 0.15fr;
+    grid-template-rows: 0.1fr 0.8fr 0.1fr;
+}
+
+.menu-box {
+    grid-column: 2 / 3;
+    grid-row: 1/ 2;
+    background: green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.page-number-icon {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background: green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+
+.icon-list {
+    grid-column: 2 / 3;
+    grid-row: 2/ 3;
+    background: pink;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.icon-list-flex-box {
+    height: 45%;
+    width: 20%;
+    background: blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.form-flex-box {
+    grid-column: 1 / 2;
+    grid-row: 2/ 3;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-grid {
+   height: 100%;
+   width: 80%;
+    display: grid;
+    background: pink;
+    grid-template-rows: 0.2fr 0.8fr;
+}
+
+.contact-me-box {
+    grid-row: 1 / 2;
+    background:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.form-box {
+    grid-row: 2 / 3;
+    background: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.border {
+    position: relative;
+    width: 600px;
+    height: 410px;
+    margin: 100px;
+    border: 1px solid #000;
+}
+
+.border:after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+}
+span:before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+  
