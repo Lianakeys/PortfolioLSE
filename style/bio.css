@@ -54,7 +54,7 @@
     padding: 5% 5%;
     grid-column: 2 / 3;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .what-i-am-doing {
@@ -67,6 +67,7 @@
     display: flex;
     flex-wrap: wrap;
     letter-spacing: 7px;
+  
     
 }
 
