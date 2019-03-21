@@ -1,5 +1,6 @@
 @import 'colours.css';
 @import 'hover.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
 
 
 .home-icon {
@@ -60,7 +61,7 @@
 
 #ihome {
     color: var(--lightpurple);
-   
+    
 }
 
 #ibio {
@@ -75,7 +76,6 @@
     color: var(--lightpurple)
 }
 
-  
 
 
- 
+
