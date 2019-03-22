@@ -1,6 +1,7 @@
 @import 'icon.css';
 @import 'colours.css';
 @import 'hover.css';
+@import 'media-queries.css';
 
 * {
     margin: 0;

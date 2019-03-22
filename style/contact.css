@@ -1,6 +1,7 @@
 @import 'colours.css';
 @import 'icon.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+@import 'media-queries.css';
 
 * {
     margin: 0px;
@@ -36,7 +37,7 @@
 .menu-word {
     color: white;
     padding: 10px;
-    font-size: 45px;
+    font-size: 4.5vh;
     height: 30%;
     width:40%;
     text-decoration:none;
@@ -68,7 +69,7 @@
 
 .page-number-icon {
     
-    padding: 10px 20px;
+    padding: 1vh 2vh;
 }
 
 
@@ -90,7 +91,7 @@
     justify-content: center;
     align-items: space-between;
     flex-wrap : wrap;
-    padding: 20px 20px;
+    padding: 2vh 2vh;
     align-content: space-between;
     
     
@@ -125,7 +126,7 @@
 } 
 
 .contact-me-box {
-    font-size: 90px;
+    font-size: 9vh;
     filter: blur(1px);
     color: white;
     font-family: roboto;
@@ -143,9 +144,9 @@
 
 .border {
     position: relative;
-    width: 600px;
-    height: 410px;
-    margin: 100px;
+    width: 60vh;
+    height: 41vh;
+    margin: 10vh;
     border: 1px solid #000;
     display: flex;
     align-items: center;
@@ -155,22 +156,22 @@
 .border:after {
     display: block;
     content: "";
-    width: 150px;
-    height: 100px;
+    width: 15vh;
+    height: 10vh;
     position: absolute;
-    top: -80px;
-    right: -50px;
+    top: -8vh;
+    right: -5vh;
     border-top: 3px solid white;
     border-right: 3px solid white;
 }
 span:before {
     display: block;
     content: "";
-    width: 150px;
-    height: 100px;
+    width: 15vh;
+    height: 10vh;
     position: absolute;
-    bottom: -7px;
-    left: -50px;
+    bottom: -0.7vh;
+    left: -5vh;
     border-bottom: 3px solid white;
     border-left: 3px solid white;
 }
@@ -180,15 +181,15 @@ span:before {
 input[type=text] {
     border: solid black 2px;
     
-    width: 283px;
-    height: 53px;
-    left: 283px;
-    top: 82px;
-    font-size: 25px;
+    width: 28.3vh;
+    height: 5.3vh;
+    left: 28.3vh;
+    top: 8.2vh;
+    font-size: 2.5vh;
     background: white;
     filter: blur(0.1px);
-    border-radius: 16px;
-    margin: 1px -5px;
+    border-radius: 1.6vh;
+    margin: 0.1vh -0.5vh;
 }
 
 input[placeholder] {
@@ -198,28 +199,27 @@ input[placeholder] {
 input[type=email] {
     border: solid black 2px;
     
-    width: 284px;
-    height: 53px;
-    left: 283px;
-    top: 82px;
-    
-    background: #white;
+    width: 28.4vh;
+    height: 5.3vh;
+    left: 28.3vh;
+    top: 8.2vh;
+    background: white;
     filter: blur(0.1px);
-    font-size: 25px;
-    border-radius: 16px;
+    font-size: 2.5vh;
+    border-radius: 1.6vh;
 }
 
 input[type=blog] {
     border: solid black 3px;
-    width: 250px;
-    height: 167px;
-    left: 283px;
-    top: 251px;
-    font-size: 25px;
+    width: 25vh;
+    height: 16.7vh;
+    left: 28.3vh;
+    top: 25.1vh;
+    font-size: 2.5vh;
     background: white;
     filter: blur(0.1px);
-    border-radius: 15px;
-    margin: 1px -27px;
+    border-radius: 1.5vh;
+    margin: 0.1vh -2.7vh;
 }
 
 
@@ -232,10 +232,10 @@ input[type=submit] {
     background:var(--lightpurple);
     text-decoration: none;
     border: solid black 1px;
-    height: 50px;
-    width: 100px;
-    font-size: 20px;
-    border-radius: 25px;
+    height: 5vh;
+    width: 10vh;
+    font-size: 2vh;
+    border-radius: 2.5vh;
     font-family: roboto;
 }
 
@@ -247,19 +247,19 @@ input[type=submit]:hover {
 
 label[for=text] {
     color: white;
-    margin: 20px 20px;
-    font-size: 30px;
+    margin: 2vh 2vh;
+    font-size: 3vh;
 }
 
 label[for=email] {
     color: white;
-    margin: 20px 20px;
-    font-size: 30px;
+    margin: 2vh 2vh;
+    font-size: 3vh;
 }
 
 label[for=blog] {
     color: white;
-    margin: 20px 20px;
-    font-size: 30px;
+    margin: 2vh 2vh;
+    font-size: 3vh;
     
 }

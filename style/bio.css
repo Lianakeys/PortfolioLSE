@@ -1,6 +1,7 @@
 @import 'icon.css';
 @import 'colours.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+@import 'media-queries.css';
 
 
 * {
