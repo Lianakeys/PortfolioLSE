@@ -185,7 +185,7 @@ input[type=text] {
     left: 283px;
     top: 82px;
     font-size: 25px;
-    background: #FFE4E4;
+    background: white;
     filter: blur(0.1px);
     border-radius: 16px;
     margin: 1px -5px;
@@ -203,7 +203,7 @@ input[type=email] {
     left: 283px;
     top: 82px;
     
-    background: #FFE4E4;
+    background: #white;
     filter: blur(0.1px);
     font-size: 25px;
     border-radius: 16px;
@@ -216,11 +216,17 @@ input[type=blog] {
     left: 283px;
     top: 251px;
     font-size: 25px;
-    background: #FFF7F7;
+    background: white;
     filter: blur(0.1px);
     border-radius: 15px;
     margin: 1px -27px;
 }
+
+
+::placeholder {
+    padding-left: 0.5vw;
+}
+
 
 input[type=submit] {
     background:var(--lightpurple);
