@@ -1,7 +1,6 @@
-@import 'icon.css';
-@import 'colours.css';
-@import 'hover.css';
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+
+
 
 
 @media only screen 
@@ -10,26 +9,7 @@ and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 1) 
   {  
 
-.text-box{
-    font-size: 2vh;
-    margin: 1vh;
-    
-}
 
-.logo-text {
-    font-size: 20vh;
-    font-weight: 10vh;
-}
-    
-.bottom-right-icon-box {
-    margin: 2vh;
-
-}
-
-
-.fa-size {
-    font-size: 2vh;
-}
 
 
 }
