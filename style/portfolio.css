@@ -1,12 +1,20 @@
 @import 'icon.css';
 @import 'colours.css';
 @import 'hover.css';
+@import 'media_query.css';
 
 
 * {
     margin: 0px;
 }
 
+#tablet {
+    display:none;
+}
+
+#phone {
+    display: none;
+}
 
 .container {
     height: 100vh;
@@ -123,6 +131,7 @@ p {
     background: black;
     display: flex;
     justify-content: flex-end;
+   
     
 }
 

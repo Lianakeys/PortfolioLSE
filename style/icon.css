@@ -60,21 +60,22 @@
 
 #ihome {
     color: var(--lightpurple);
-    
+    font-size: 6vh;
 }
 
 #ibio {
-    color: var(--lightpurple)
+    color: var(--lightpurple);
+    font-size: 6vh;
 }
 
 #ichess {
-    color: var(--lightpurple)
+    color: var(--lightpurple);
+    font-size: 6vh;
 }
 
 #icontact {
-    color: var(--lightpurple)
+    color: var(--lightpurple);
+    font-size: 6vh;
 }
-
-
 
 
