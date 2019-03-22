@@ -1,0 +1,148 @@
+@media only screen and (max-width : 1024px) {
+  
+  #ihome {
+    font-size: 5.5vh;
+  }
+  
+  #ibio {
+    font-size: 5.5vh;
+    
+  }
+  
+  #ichess {
+    font-size: 5.5vh;
+    
+  }
+  
+  #icontact {
+    font-size: 5.5vh;
+    
+  }
+  
+  .top-right-text-box {
+    width: 10vh;
+  }
+  
+  
+  
+  .home-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+  
+  
+  .bottom-icon {
+    
+    padding: 2vh 2vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-icon {
+    height: 14vw;
+    width: 14vw;
+  }
+  
+  .bio-icon {
+    height: 14vw;
+    width: 14vw;
+    
+  }
+  
+  .skills-icon {
+    height: 14vw;
+    width: 14vw;
+    
+  }
+  
+  .contact-icon {
+    height: 14vw;
+    width: 14vw;
+    
+  }
+  
+  .top-right-text-box {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+    background: black;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  #ihome {
+    font-size: 4.5vh;
+  }
+  
+  #ibio {
+    font-size: 4.5vh;
+    
+  }
+  
+  #ichess {
+    font-size: 4.5vh;
+    
+  }
+  
+  #icontact {
+    font-size: 4.5vh;
+    
+  }
+  
+  .top-right-text-box {
+    width: 10vh;
+  }
+  
+  
+  
+  .home-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .bottom-icon {
+    
+    padding: 2vh 2vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-icon {
+    height: 14vw;
+    width: 14vw;
+  }
+  
+  .bio-icon {
+    height: 14vw;
+    width: 14vw;
+    
+  }
+  
+  .skills-icon {
+    height: 14vw;
+    width: 14vw;
+    
+  }
+  
+  .contact-icon {
+    height: 14vw;
+    width: 14vw;
+    
+  }
+  
+}

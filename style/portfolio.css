@@ -1,7 +1,7 @@
 @import 'icon.css';
 @import 'colours.css';
 @import 'hover.css';
-@import 'media_query.css';
+@import 'media_queryHome-page.css';
 
 
 * {
@@ -131,7 +131,7 @@ p {
     background: black;
     display: flex;
     justify-content: flex-end;
-   
+    
     
 }
 

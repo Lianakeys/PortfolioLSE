@@ -1,7 +1,7 @@
 @import 'colours.css';
 @import 'icon.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
-
+@import 'media_queryContact-page.css';
 
 * {
     margin: 0px;
@@ -36,7 +36,7 @@
 
 .menu-word {
     color: white;
-    padding: 1vh;
+    padding: 1%;
     font-size: 4.5vh;
     height: 30%;
     width:40%;
@@ -69,7 +69,7 @@
 
 .page-number-icon {
     
-    padding: 1vh 2vh;
+    padding: 1% 2%;
 }
 
 
@@ -91,7 +91,7 @@
     justify-content: center;
     align-items: space-between;
     flex-wrap : wrap;
-    padding: 2vh 2vh;
+    padding: 2% 2%;
     align-content: space-between;
     
     
@@ -144,14 +144,16 @@
 
 .border {
     position: relative;
-    width: 60vh;
-    height: 41vh;
-    margin: 10vh;
+    width: 60%;
+    height: 41%;
+    margin: 10%;
     border: 1px solid #000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 .border:after {
     display: block;
