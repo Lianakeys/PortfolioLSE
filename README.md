@@ -210,14 +210,30 @@ Day 5 : https://raw.githubusercontent.com/Lianakeys/PortfolioLSE/master/Trello-3
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SHORT ANSWER Q&A
 
-Describe key events in the development of the internet from the 1980s to today (max. 150 words)
+1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
+--> Professor Leonard Kleinrock was credited for developing the concept of World Wide Web.
 
+In the 1980s : A research at CERN by a computer scientist Tim Berners-Lee from Switzerland had succesfully established the World Wide Web, which utilizes a HyperText Markup Language (HTML) and soon CERN introduces WWW to the public.
 
-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+In the 1990s : Increasing number of websites were created. Websites such as Netscape, Microsoft, Yahoo, Google, etc were born. Gradually, communication was made so much easier as mails can now be sent using electronic mail. Features such as fast-messaging, as well as telephone calls and video calls that can be made over Internet alone.   
 
+In the 2000s : Online shopping sites and social media sites were born (Facebook, Twitter. Soon, the internet has taken over of the global communication aspect in everyone's everyday life. 
 
+As of today, the internet serves as a vital mean of communication, commerce, entertainment and many more.
 
-Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+
+--> Domain is the address of a website. Eg "google.com" 's domain has an IP address of "123.455.123.890".
+
+    Web server acts as a server and is a computer that stores a website's component files. Eg HTML, CSS etc. 
+
+    DNS stands for Domain Name Server and serves as an address book for websites. For example, when typing any web address in a web browser, DNS finds the website's real address in order to retrieve the real website, because the real name of the website are numbers, Eg, 25.123.234.11, and hence when typing a web browser eg Chrome, it'll match up the real numeric address of Chrome's IP address.
+
+    Web Browsers acts as a client, and when it sends requests to the web server (wants to access certain pages), these info will be sent to web server and then downloaded in order to sent back to the client. Eg Safari, Chrome.
+
+3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+
+One of the main aspect of development of the Internet is global communication. Revolution of the Internet technologies has enabled a dramatic increase in people sharing their information worldwide, anytime and anywhere, all in just moments of time. This has a huge impact on different aspects in life in such a way that people can now exchange and share their cultures with people from different countries, hence developing new perspectives and broadening one's insight rather than having only a fixed mindset. Moreover, there's no doubt a better communication allows globalisation which is an important factor in influencing the growth of a country's economy. In addition, global communication provides a fundamental platform to share social/political/major news that concern all the countries in the world, which is a crucial information to be shared.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
